@@ -1,0 +1,30 @@
+* {
+  font-family: Aqua Grotesque, sans-serif;
+}
+
+.logoNav {
+  width: 50px;
+  filter: invert(100%);
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  border: none;
+  outline: none;
+}
+
+.form-control {
+  
+}
+
+.form-control:before {
+  color: red;
+}
+
+.nav-link {
+  color: red;
+}
