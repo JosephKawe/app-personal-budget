@@ -27,7 +27,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-5">
       <div class="container">
         <a class="navbar-brand" href="#">
-           <img src="logo.png" width="50" height="35" alt="Orçamento pessoal">
+           <img src="logo.png" height="35" alt="Orçamento pessoal">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -46,10 +46,8 @@
       </div>
     </nav>
 
-    <button id="myBtn">Try it</button>
-
     <div class="container">
-      <div class="row mb-2">
+      <div class="row mb-2 text-center w-100 d-flex justify-content-center align-items-center">
         <div class="col-md-4">
           <h2 class="tittle">Dinheiro Total</h2>
           <h2 id="valorTotal" class="bg-success text-white text-center pt-4 pb-3" ></h2>
@@ -61,14 +59,14 @@
       </div>
     </div>
 
-    <div class="container">
-      <div class="row mb-5">
+    <div class="container d-flex flex-column justify-content-center mt-4 align-items-center">
+      <div class="row mb-5 d-flex">
         <div class="col">
           <h1 class="display-4">Consulta de despesas</h1>
         </div>
       </div>
 
-      <div class="row mb-4">
+      <div class="row mb-4 d-flex align-items-center justify-content-center">
         <div class="col-md-8 mb-2">
           <select class="form-control" id="ano">
             <option value="">Ano</option>
@@ -76,7 +74,7 @@
           </select>
         </div>
 
-        <div class="col-md-8 mb-2">
+        <div class="col-md-8 mb-2 d-flex justify-content-center align-items-center">
           <select class="form-control" id="mes">
             <option value="">Mês</option>
             <option value="1">Janeiro</option>
@@ -94,7 +92,7 @@
           </select>
         </div>
         
-        <div class="col-md-8 mb-2">
+        <div class="col-md-8 mb-2 d-flex justify-content-center align-items-center">
           <input type="text" class="form-control" placeholder="Dia" id="dia" />
         </div>
 
@@ -109,25 +107,22 @@
           </select>
         </div>
       </div>
+      <div class="col-md-5 mb-2">
+        <input type="text" class="form-control" placeholder="Descrição" id="descricao" />
+      </div>
 
-      <div class="row">
-        <div class="col-md-8 mb-2">
-          <input type="text" class="form-control" placeholder="Descrição" id="descricao" />
-        </div>
-
-        <div class="col-md-6 mb-2">
+        <div class="col-md-5 mb-2">
           <input type="text" class="form-control" placeholder="Valor" id="valor" />
         </div>
 
-        <div class="col-md-6 d-flex justify-content-start">
-          <button type="button" class="btn btn-lg btn-warning" onclick="pesquisarDespesa()">
+        <div class="col-md-5 mb-4">
+          <button type="button" class="btn btn-lg col-md-12 btn-warning" onclick="pesquisarDespesa()">
             <i class="fas fa-search"></i>
           </button>
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col">
+      <div class="row d-flex align-items-center justify-content-center">
+        <div class="col d-flex align-items-center justify-content-center">
           <table class="table" >
             <thead>
               <tr>

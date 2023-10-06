@@ -5,6 +5,7 @@
 .logoNav {
   width: 50px;
   filter: invert(100%);
+  background-size: cover;
 }
 
 .navbar-toggler {
